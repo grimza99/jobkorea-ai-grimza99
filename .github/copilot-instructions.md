@@ -29,7 +29,12 @@
 - 커밋 메시지: [feat], [fix], [refactor], [docs], [chore] 등 태그 사용
 - 태그 : 커밋 타이틀
   body : 내용이 필요할시 아래 내용
-- PR 제목: 작업 내용이 명확하게 드러나도록 작성
+
+## PR 생성시 규칙
+
+- pr 제목
+  [feat], [fix], [refactor], [docs], [chore] 등 태그 사용
+- e.g.) feat : pr 타이틀
 
 ## 디자인 시스템
 
