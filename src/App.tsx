@@ -1,5 +1,7 @@
-function App() {
-  return <>홈페이지</>;
+export default function App() {
+  return (
+    <>
+      <p>홈페이지</p>
+    </>
+  );
 }
-
-export default App;
