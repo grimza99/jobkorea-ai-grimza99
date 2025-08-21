@@ -23,7 +23,7 @@ export default function LabelCheckInput({
   return (
     <label
       className={clsx(
-        `flex items-center justify-center w-fit`,
+        `flex items-center justify-center w-fit m-1`,
         isChecked ? "rounded-primary-small" : "rounded-gray-small"
       )}
       data-variant={isChecked ? "rounded-primary-small" : "rounded-gray-small"}

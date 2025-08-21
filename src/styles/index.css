@@ -43,4 +43,16 @@ html {
     border-radius: 1.875rem; /* 30px */
     color: var(--color-gray400);
   }
+  .title-form__counter {
+    font-size: 0.75rem;
+    display: flex;
+  }
+
+  .title-form__counter span:first-child {
+    color: var(--color-primary);
+  }
+
+  .title-form__counter span {
+    color: var(--color-gray400);
+  }
 }
