@@ -12,10 +12,14 @@ export default function Modal({ title }: { title?: string }) {
   };
 
   return createPortal(
-    <section className="bg-white w-full h-full fixed top-0">
+    <section
+      className="bg-white w-full h-full fixed top-0"
+      role="dialog"
+      aria-modal="true"
+    >
       <header className="flex justify-between items-center px-[17px] h-17">
         <h1 className="text-lg font-bold">{title}</h1>
-        <button onClick={close}>
+        <button onClick={close} aria-label="닫기">
           <img src="icons/x.svg" className="w-6 h-6" />
         </button>
       </header>
