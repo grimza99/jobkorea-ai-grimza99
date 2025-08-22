@@ -6,7 +6,7 @@ interface ModalContextType {
   isOpen: boolean;
   content: ReactNode | null;
 }
-
+const MODAL_CLOSE_ANIMATION_DURATION = 300; // ms
 const ModalContext = createContext<ModalContextType | undefined>(undefined);
 
 export function useModal() {
@@ -26,7 +26,9 @@ export function ModalProvider({ children }: { children: ReactNode }) {
 
   const close = () => {
     setIsOpen(false);
-    setContent(null);
+    setTimeout(() => {
+      setContent(null);
+    }, MODAL_CLOSE_ANIMATION_DURATION);
   };
 
   return (
