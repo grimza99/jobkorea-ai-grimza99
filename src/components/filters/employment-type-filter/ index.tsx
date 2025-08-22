@@ -1,7 +1,7 @@
 // 근무형태 선택 컴포넌트
-import conditionData from "../../mock/condition.json";
-import HasMaxCountFilterTitle from "../common/HasMaxCountFilterTitle";
-import LabelCheckInput from "../common/LabelCheckInput";
+import conditionData from "../../../mock/condition.json";
+import HasMaxCountFilterTitle from "../../common/HasMaxCountFilterTitle";
+import LabelCheckInput from "../../common/LabelCheckInput";
 
 const employmentType = conditionData.employmentType;
 
