@@ -1,10 +1,9 @@
-import LabelCheckInput from "./components/common/LabelCheckInput";
+import FilterHeader from "./components/filter-header";
 
 export default function App() {
   return (
     <>
-      <p>홈페이지</p>
-      <LabelCheckInput text="테스트" />
+      <FilterHeader />
     </>
   );
 }
